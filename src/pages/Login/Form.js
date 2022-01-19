@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import FormLogin from './FormLogin'
 import './Form.css' 
 import FormSuccess from './FormSuccess';
+import { useNavigate } from 'react-router-dom';
 
 const Form = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
 
+    const navigate = useNavigate();
     function submitForm() {
-        setIsSubmitted(true);
+        navigate("/dashboard");
     }
 
     return (

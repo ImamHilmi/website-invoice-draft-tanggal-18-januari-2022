@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Main from '../Dashboard/Main/Main'
+import Main from '../../components/Dashboard/Main/Main'
 
 const FormSuccess = () => {
     return (

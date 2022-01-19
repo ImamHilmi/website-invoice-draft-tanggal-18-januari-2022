@@ -1,8 +1,12 @@
 import React from 'react'
 import "./Sidebar.css"
 import { Dashboard, Receipt } from "@mui/icons-material"
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
+
+    
+
     return (
         <>
             <div className="sidebar">
@@ -12,9 +16,11 @@ const Sidebar = () => {
                             Dashboard
                         </h3>
                         <ul className="sidebarList">
-                            <li className="sidebarListItem active">
-                                <Dashboard className="sidebarIcon"/>
-                                Home
+                            <li>
+                                <NavLink to="/dashboard" className={(navData) => navData.isActive ? "sidebarListItem active" : "sidebarListItem"}>
+                                   <Dashboard className="sidebarIcon"/>
+                                    Home
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
@@ -23,9 +29,11 @@ const Sidebar = () => {
                             Invoice
                         </h3>
                         <ul className="sidebarList">
-                            <li className="sidebarListItem">
-                                <Receipt className="sidebarIcon"/>
-                                Invoice Page
+                            <li>
+                                <NavLink to="/invoice" className={(navData) => navData.isActive ? "sidebarListItem active" : "sidebarListItem"}>
+                                    <Receipt className="sidebarIcon"/>
+                                    Invoice Page
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

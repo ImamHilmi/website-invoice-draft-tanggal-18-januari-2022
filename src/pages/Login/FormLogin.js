@@ -1,7 +1,7 @@
 import React from 'react'
 import useForm from '../../hooks/useForm'
 import validateInfo from '../../hooks/validateInfo'
-import '../Login/Form.css'
+import './Form.css'
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
 
 const FormSignup = ({ submitForm }) => {

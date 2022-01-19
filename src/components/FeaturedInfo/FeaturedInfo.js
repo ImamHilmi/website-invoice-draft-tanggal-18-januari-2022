@@ -18,13 +18,10 @@ const FeaturedInfo = () => {
                             +2.4% <ArrowUpward className="featuredIcon" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
                 <div className="featuredItem">
                     <span className="featuredTitle">
-                        Total Unpaid
+                        Unpaid Payment
                     </span>
                     <div className="featuredNumberContainer">
                         <span className="featuredNumber">
@@ -34,13 +31,10 @@ const FeaturedInfo = () => {
                             -5.1% <ArrowDownward className="featuredIcon negative" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
                 <div className="featuredItem">
                     <span className="featuredTitle">
-                        Ongoing Payment
+                        Overdue Payment
                     </span>
                     <div className="featuredNumberContainer">
                         <span className="featuredNumber">
@@ -50,15 +44,12 @@ const FeaturedInfo = () => {
                             +4.6% <ArrowUpward className="featuredIcon" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
             </div>
             <div className="featured">
                 <div className="featuredItem">
                     <span className="featuredTitle">
-                        Active Order
+                        Payment Received
                     </span>
                     <div className="featuredNumberContainer">
                         <span className="featuredNumber">
@@ -68,13 +59,10 @@ const FeaturedInfo = () => {
                             +10.0% <ArrowUpward className="featuredIcon" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
                 <div className="featuredItem">
                     <span className="featuredTitle">
-                        Late Payment
+                        Pending Amount
                     </span>
                     <div className="featuredNumberContainer">
                         <span className="featuredNumber">
@@ -84,25 +72,19 @@ const FeaturedInfo = () => {
                             -15.3% <ArrowDownward className="featuredIcon negative" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
                 <div className="featuredItem">
                     <span className="featuredTitle">
-                        Approve
+                        Total Amount
                     </span>
                     <div className="featuredNumberContainer">
                         <span className="featuredNumber">
-                            25
+                            108
                         </span>
                         <span className="featuredNumberRate">
                             -2.9% <ArrowDownward className="featuredIcon negative" /> 
                         </span>
                     </div>
-                    <span className="featuredSub">
-                        Compared to last month
-                    </span>
                 </div>
             </div>
         </>
