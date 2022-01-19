@@ -9,7 +9,7 @@ const FormSignup = ({ submitForm }) => {
             submitForm,
             validateInfo
         );
-
+    
     return (
         <>
             <div className="form-content-right">

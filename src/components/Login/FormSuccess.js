@@ -1,13 +1,14 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Main from '../Dashboard/Main/Main'
 
 const FormSuccess = () => {
     return (
         <>
-            <div className="form-content-right">
-                <div className="form-success">
-                    We have received your request!
-                </div>
-                <img src="img/img-3.svg" alt="success image" className="form-img-2" />
+            <div>
+                <Routes>
+                     <Route exact path="/" element={<Main />} />
+                </Routes>
             </div>
         </>
     )
